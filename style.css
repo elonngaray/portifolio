@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* font-family: 'Roboto Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Roboto+Mono&display=swap');
+/* font-family: 'Bitter', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Kanit:wght@300&family=Roboto+Mono&display=swap');
+
+/* font-family: 'Kanit', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(59, 250, 240),rgb(0, 132, 255));
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main{
+    width: 80vw;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Belanosima', sans-serif;
+    padding: 30px 35px;
+    font-family: 'Bitter', serif;
+}
+.esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Belanosima', sans-serif;
+}
+.dentro-esquerda{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 20px;
+    background: rgba(125, 141, 150, 0.2);
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.dentro-esquerda > a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(3, 66, 200);
+    font-weight: bold;
+    text-shadow: rgba(157, 244, 255, 0.849) 0.1em 0.1em 0.9em;
+    font-family: 'Roboto Mono', monospace;
+}
+.card{
+    width: 30vw;
+    height: 25vh;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+img{
+    display: flex;
+    margin-left: 5%;
+    padding-top: 3vh;
+    width: 5vw;
+    border-radius: 100%;
+}
+.card > p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    margin-left: 3.5%;
+    margin-top: 5%;
+    color: aliceblue;
+}
+.card >a{
+    margin-left: 70%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-shadow: rgb(4, 209, 255) 0.1em 0.1em 1em;
+}
